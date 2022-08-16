@@ -1,0 +1,142 @@
+html{
+    font-family:'Times New Roman', Times, serif;
+    }
+h1{
+    font-weight:bold;
+    border-style: solid;
+    border: color #1a1a1a;;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-top: 0px;
+    width: fit-content;
+    border-radius: 5px;
+    color: #333;
+}
+h2{
+    font-weight: bold;
+    border-style: solid;
+    border-color: #1a1a1a;  
+    border-left: 0;
+    border-right-width: 0;
+    color: #333;
+}
+h3{
+    font-weight: bold;
+    border-style: solid;
+    border-color: #1a1a1a;
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    width:fit-content;
+}
+.container{
+    position: relative;
+    text-align: center;
+
+}
+.container2{
+    position: relative;
+    text-align: center;
+}
+.column2{
+    float:right;
+    width: 45%;
+    padding: 5px;
+}
+.column1{
+    float:left;
+    width: 45%;
+    padding: 5px;
+}
+.row:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.column{
+    float: center;
+    width: 45%;
+    padding: 5px;
+}
+/*Bottom left text*/
+.bottom-left{
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+}
+/*top text*/
+.top{
+    position: absolute;
+    top: 8px;
+}
+/*Top left text*/
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+/*Top right text*/
+.top-right{
+    position:absolute;
+    top: 8px;
+    right: 16px;
+}
+/*Bottom right text*/
+.bottom-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+/*Centered text*/
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#hp{
+    float: left;
+    text-align: left;
+    margin: 0 0 0 15px;
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    width: fit-content;
+    height: fit-content;
+}
+#np{
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    float: left;
+    width: 45%;
+    height: fit-content;
+}
+#np2{
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    width: 45%;
+    height: fit-content;
+}
+#np3{border-style: solid;
+    border-left-width:0;
+    border-right-width:0;;
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    width: fit-content;
+    height: fit-content;
+
+}
